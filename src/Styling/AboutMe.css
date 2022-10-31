@@ -1,0 +1,49 @@
+#about{
+   /*  background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://images.unsplash.com/photo-1582582542002-504761a4c8e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80); */
+   background-color: black;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    color: white;
+    width: auto;
+    margin-right: -60px !important;
+    padding-left: -20px !important;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    
+}
+
+#aboutMe_container{
+    margin-top: 150px;
+ /*    padding-left: 70px; */
+    text-align: center;
+       
+}
+
+.phrase{
+    font-size: x-large;
+    font-family:sans-serif;
+    padding: 50px;
+    z-index: -1;
+    color: yellow;
+}
+
+.phrase3{
+    font-size: 1rem;
+    
+}
+
+#navIcon{
+    position: absolute;
+    top: 250 !important;
+    background-color: aqua;
+}
+
+@media only screen and (min-width:600px){
+    #navIcon{
+        display: none !important;
+    }
+}

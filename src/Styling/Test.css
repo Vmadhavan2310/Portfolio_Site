@@ -1,0 +1,34 @@
+.app {
+    padding: 10px;
+    background-color: black;
+  }
+  
+  .circle {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+  }
+  
+  .circle.sm {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: yellow;
+  }
+  
+  .circle.md {
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+    border-radius: 50%;
+  }
+  
+  .circle.lg {
+    width: 90px;
+    height: 90px;
+    background-color: yellow;
+    border-radius: 50%;
+  }
+  

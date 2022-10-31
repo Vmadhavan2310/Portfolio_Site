@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@1,6..96,900&family=EB+Garamond:ital,wght@1,500;1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@1,6..96,900&family=EB+Garamond:ital,wght@1,500;1,800&family=Passions+Conflict&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+
+
+.Container_head{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(https://images.unsplash.com/photo-1599652645797-b34b1824507d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    width: auto;
+    margin-right:-60px;
+    
+}
+
+.imp-text{
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+.banner-title,.animation-title{
+    padding:150px 50px 50px 50px;
+}
+
+
+  #ideas{
+    font-size: 2.5rem;
+    background:linear-gradient(90deg, #2193b0,#6dd5ed);
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  }
+
+
+  .animation-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(#2193b0,#6dd5ed);
+  }
+  
+  /* CV Button */
+
+  .btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    border-radius: 5px;
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+  
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background: black;
+    border: 1px solid black;
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }
+
+  /* Contact */
+
+  .Contact {
+    width: 180px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #fdcb6e;
+    box-shadow: 5px 5px 0 0;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20px;
+  }
+  #contact-link{
+    position: absolute;
+    text-decoration: none;
+    color:white;
+    z-index: 1000;
+    list-style-type: none;
+    cursor: pointer;
+  }
+  .Contact::after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 170px;
+    height: 70px;
+    background: linear-gradient(to right, #2193b0,#6dd5ed);
+    opacity: 0;
+    transition: 0.3s;
+  }
+  .Contact:hover {
+    box-shadow: -5px -5px 0 0;
+    transform: scale(0.9);
+  }
+  .Contact:hover::after {
+    opacity: 1;
+  }

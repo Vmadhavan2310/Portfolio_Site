@@ -1,0 +1,21 @@
+@media only screen and (min-width:600px){
+#skillSet-Story{
+    width: 30vw;
+    padding:0 100px 0 100px;
+}
+#skillSet-progressBar{
+    width:40vw;
+    
+}
+
+#skillSet-progressBar2{
+    display: none;
+}
+}
+
+.skillSet-phrase{
+    font-family:'Times New Roman', Times, serif !important;
+    background-color:lightyellow;
+    font-size: large !important;
+ 
+}
